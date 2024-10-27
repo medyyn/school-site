@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    header > div > nav > menu{
+        display: none;
+    }
+    header > div > nav > svg {
+        display: block;
+    }
+    header > div > h1{
+        width: 60%;
+    }
+    .title{
+        width: 85%;
+    }
+    .subtitle{
+        width: 75%;
+    }
+    .title2{
+        font-size: 1rem;
+    }
+    .subtitle2{
+        font-size: 0.7rem;
+        color: #919FAE;
+        width: 35%;
+        margin: 20px 0;
+    }
+    .about2{
+        width: 50%;
+    }
+    .cards{
+        gap: 20px;
+    }
+    .card-line{
+        gap: 20px;
+    }
+    .card {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        width: 150px;
+    }
+    .card > img {
+        width: 25px;
+    }
+    .card-title{
+        margin: 24px 0 0 0;
+    }
+    .images{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
