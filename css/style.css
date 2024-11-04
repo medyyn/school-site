@@ -297,3 +297,130 @@ footer > .footer-inner > ul > li{
     text-align: center;
     font-size: 0.7rem;
 }
+.about-first-section{
+    padding: 80px 0 80px 0;
+}
+.title3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.all-cards{
+    margin-left: 22%;
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+.long-card{
+    padding: 0 50px 40px 50px;
+    background-color: #2BA7E2;
+    border-radius: 10px;
+    width: 300px;
+}
+.card-one{
+    margin-top: 70px;
+}
+.long-card > .card-one > img {
+    margin-left: 23%;
+} 
+.long-card-title{
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+.long-card-subtitle{
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 300;
+    color: #DFDFDF;
+}
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    gap: 30px;
+}
+.grid-cards > .grid-card-one > img {
+    margin-left: 18%;
+}
+.grid-card-one{
+    border: 2px solid #DFDFDF;
+    border-radius: 10px;
+    padding: 25px 40px 25px 40px;
+    background-color: #F9FBFD;
+}
+.grid-card-title{
+    font-size: 0.7rem;
+    text-align: center;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.grid-card-subtitle{
+    margin-top: 8px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 300;
+    color: #0C101A;
+}
+.table-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #2196f3;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.header {
+    background-color: #2196f3;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.sub-header {
+    font-size: 1rem;
+    background-color: #B9CAFF;
+    font-weight: bold;
+}
+.year-header {
+    font-size: 1rem;
+    background-color: #2BA7E2;
+    color: white;
+    font-weight: bold;
+}
+.table-ss{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table1 > .table3 > .header-row > th{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.table1 > .table3 > .header-row > td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.total-row td {
+    background-color: #a2d0ec;
+}
+.header-row th {
+    background-color: #2daae1;
+    color: white;
+}

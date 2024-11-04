@@ -49,4 +49,13 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
+    .about-title{
+        margin-left: 20%;
+    }
+    .images2 > .image1 > img {
+        width: 100px;
+    }
+    .all-cards{
+        margin-left: 0%;
+    }
 }
